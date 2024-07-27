@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "ViaCep API with Feign-Gradle", version = "1.0", description = "API para consulta de CEP"))
+@OpenAPIDefinition(info = @Info(title = "ViaCep API with RestTemplate-Gradle", version = "1.0", description = "API para consulta de CEP"))
 public class ViaCepApplication {
 
 	public static void main(String[] args) {
